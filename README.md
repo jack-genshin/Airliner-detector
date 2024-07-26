@@ -16,11 +16,14 @@ My algorithm works as a classification neural network. We used transfer learning
 
 ## Running this project
 
+download data and model here;
+https://drive.google.com/drive/folders/1xIOfnyGIGrubHeIFmUI-J6y0SYMhmztf?usp=sharing
+
 1. Ensure the jetson-inference library has been cloned to the Jetson Nano using the command Ensure jetson-inference is cloned to your Jetson Nano using the command `git clone --recursive https://github.com/dusty-nv/jetson-inference`. Ensure you have also installed the planes dataset
 2.  Navigate to the jetson-inference/python/training/classification
 3. set bash environment variables NET=/models/planes2 and DATASET=/data/planes
 4. run the command imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/NAME_OF_CLASS_FOLDER/NAME_OF_JPEG DESIRED_NAME_OF_OUTPUT_JPG
 5. the classified image will appear in the DESIRED_NAME_OF_OUTPUT_JPG provided in the previous step. It will also be output to the terminal as a result of the previous command.
 
-
-[View a video explanation here](video link)
+Demonstration video (explaining process of activating the programme) posted below;
+https://www.youtube.com/watch?v=Brm78advPiw
