@@ -1,6 +1,6 @@
 # Airliner Detector
 
-People might wonder the type of airplane they are about to board at the airport, particularly if it is a Boeing or Airbus aircraft. My project is able to classify 4 of the most popular airliners in service today, the Airbus A320 and A350 and the Boeing 737 and 787. People interested in aviation can also use this project to identify planes they took pictures of in flight.
+People might wonder the type of airplane they are about to board at the airport, particularly if it is a Boeing or Airbus aircraft. This programme is capable of classifying the 4 most popular airliners in service today, the Airbus A320 and A350 and the Boeing 737 and 787. This programme is designed for the ones who prefers to specialize in the course/workplace/discussion of aviation. This programme might also meet your needs if you are just a humble aircraft lover!
 
 the image below shows the result of the classifier on a Condor A320. The model correctly assigns the aircraft to the a320 label with 53% confidence.
 
